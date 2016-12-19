@@ -14,8 +14,6 @@ playerDidMove("left")
 playerDidMove("dwn")
 playerDidMove("Up")
 
-
-
 enum Direction {
     case up
     case down
@@ -40,6 +38,8 @@ let direction1 = Direction.up
 let direction2: Direction = .down
 var direction3: Direction = .right
 
+let direction4: Direction = .left
+print(direction4.excited)
 let direction = Direction.left
 
 func playerDidMove(_ direction: Direction) {
